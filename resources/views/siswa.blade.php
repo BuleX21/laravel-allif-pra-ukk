@@ -27,10 +27,6 @@
                     <form action="{{Route('siswa.delete', $sw['id']) }}" method="post">
                         @method('DELETE')
                         @csrf
-
-
-
-                        sertery
                         <button class="btn btn-danger" type="submit">Hapus</button>
                     </form>
                     <a class="btn btn-warning" type="submit">edit</a>
