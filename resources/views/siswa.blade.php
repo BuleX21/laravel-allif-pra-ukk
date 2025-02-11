@@ -24,9 +24,6 @@
             <td class="table-light">{{$sw->jenis_kelamin }}</td>
             <td>
                 <div class="d-flex justify-content-center gap-3">
-
-
-                    gfdgffgsfdsg
                     <form action="{{Route('siswa.delete', $sw['id']) }}" method="post">
                         @method('DELETE')
                         @csrf
